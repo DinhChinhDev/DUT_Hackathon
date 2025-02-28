@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  border-radius: 16px;
+  background-color: white;
+  width: 684px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  color: #a3aed0;
+}
+td {
+  color: #2b3674;
+}
+.dashboard__function {
+  display: flex;
+  flex-direction: column;
+}

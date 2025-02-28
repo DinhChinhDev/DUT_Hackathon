@@ -1,0 +1,43 @@
+{
+  "name": "electratech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/switch": "^2.0.25",
+    "bootstrap": "^5.3.2",
+    "bootstrap-switch-button-react": "^1.2.0",
+    "chart.js": "^4.4.1",
+    "d3": "^7.8.5",
+    "firebase": "^10.7.1",
+    "framer-motion": "^11.0.3",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "next": "^14.1.0",
+    "next-cookies": "^2.0.3",
+    "react": "^18",
+    "react-bootstrap": "^2.10.0",
+    "react-dom": "^18",
+    "react-firebase-hooks": "^5.1.1",
+    "react-router-dom": "^6.21.3",
+    "recharts": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/js-cookie": "^3.0.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5"
+  }
+}

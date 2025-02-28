@@ -1,0 +1,2 @@
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='F:\\py\\Lib\\site-packages\\certifi\\cacert.pem'

@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+  border-radius: 16px;
+  background-color: white;
+  width: 684px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr td:nth-child(2) {
+  display: flex;
+  gap: 20px;
+}
+
+th {
+  color: #a3aed0;
+}
+td {
+  color: #2b3674;
+}
+.dashboard__function {
+  display: flex;
+  flex-direction: column;
+}
+
+table button {
+  border-radius: 55px;
+  background: #ccdbfd;
+  color: #3f7df8;
+  width: 116px;
+  height: 25px;
+  border: none;
+}

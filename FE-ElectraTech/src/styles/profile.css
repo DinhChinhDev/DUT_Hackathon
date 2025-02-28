@@ -1,0 +1,56 @@
+.profile {
+  display: flex;
+  padding: 80px 24px;
+  background-color: white;
+  border-radius: 16px;
+  gap: 300px;
+}
+.dashboard__function {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text-form"],
+input[type="tel"],
+input[type="password"] {
+  padding-left: 12px;
+  margin-top: 18px;
+  border: none;
+}
+.profile__set {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.profile__set button {
+  border-radius: 16px;
+  background-color: #3965ff;
+  border: none;
+  color: white;
+  width: 128px;
+  height: 40px;
+}
+.profile__button {
+  display: flex;
+  gap: 24px;
+}
+.form__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
